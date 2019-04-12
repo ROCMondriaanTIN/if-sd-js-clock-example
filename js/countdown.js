@@ -3,6 +3,7 @@ class Countdown extends Clock {
     constructor(elementId, time) {
         super(elementId);
         this.time = time;
+        this.timeElement = document.getElementById(elementId);
     }
 
     update() {
