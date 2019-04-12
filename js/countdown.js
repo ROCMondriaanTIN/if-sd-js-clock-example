@@ -1,4 +1,4 @@
-class Countdown extends Clock {
+class Countdown extends BaseTimer {
 
     constructor(elementId, time) {
         super(elementId);
